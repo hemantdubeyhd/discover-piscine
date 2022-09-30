@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.parallax{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax p{
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 30%;
+}
+
+.text-box{
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box p{
+    color: white;
+    font-size: 3rem;
+}
+
+#para1{
+    background-image: url(./casey-horner-JIdmuiF9luY-unsplash.jpg);
+}
+
+#para2{
+    background-image: url(./tyler-nix-sitjgGsVIAs-unsplash.jpg);
+}
+
+.parallax{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}

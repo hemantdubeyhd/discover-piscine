@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   /* background: url(./helena-lopes-RoTyXO1m0wo-unsplash.jpg) no-repeat center center fixed;   */
+}
+.container{
+    background: url(./helena-lopes-RoTyXO1m0wo-unsplash.jpg) no-repeat center center;
+    height: 100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container>.Title{
+    display: flex;
+    align-items: center; 
+    justify-content:center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    /* margin-top: 40vh; */
+    text-shadow: 2px 2px rgb(36, 108, 130);
+    
+}
+.Job-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-shadow: 2px 2px rgb(36, 108, 130);
+ }
+.icon-bar {
+    width: 50px;
+    position: fixed;
+
+    
+}
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.icon-bar a:hover {
+    background-color: rgb(92, 189, 222);
+}
+.active{
+    background-color: rgb(92, 189, 222);
+    box-shadow: 1px 1px ;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    
+}
+.socials a{
+    font-size: 25px;
+    color: aliceblue;
+    padding: 15px;
+    justify-content: center;  
+}
+
+.scroll{
+    height: 50vh;
+    background: none;
+    /* display: flex; */
+}
+
+nav a{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Second-page{
+    background-color: rgb(156, 132, 101);
+    display: flex;
+    flex-direction: column;
+}
+.col1{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
